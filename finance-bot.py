@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from langchain.tools import Tool
-from langchain.utilities import GoogleSearchAPIWrapper
+from langchain.utils import GoogleSearchAPIWrapper
 import os
 from openai import OpenAI
 
